@@ -27,5 +27,5 @@ function doWhileLoop(array) {
     incrementVariable();
     array.pop();
   }
-  while ((incrementVariable() === true) && array.length > 0);
+  while (incrementVariable() && array.length > 0);
 }
